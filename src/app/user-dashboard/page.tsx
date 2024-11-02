@@ -81,7 +81,7 @@ const UserDashboard = () => {
             <div className="flex justify-center mb-2">
               <img src={selectedBook.image} alt={selectedBook.title} className="w-30 h-48 object-cover" />
             </div>
-            <h2 className="text-xl font-bold mb-2">{selectedBook.title}</h2>
+            <h2 className="text-xl font-bold mb-2 flex justify-center ">{selectedBook.title}</h2>
             <p className="text-gray-700 mb-2"><strong>Autor:</strong> {selectedBook.author}</p>
             <p className="text-gray-600">{selectedBook.synopsis}</p>
             <button onClick={closeDetailsModal} className="bg-gray-500 text-white p-2 rounded mt-4">Fechar</button>
